@@ -7,8 +7,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 @immutable
 class CounterApp extends StatelessWidget{
-  ThemeData selectedTheme;
-  CounterApp(this.selectedTheme, {super.key});
+  final ThemeData selectedTheme;
+  const CounterApp(this.selectedTheme, {super.key});
 
   @override
   Widget build(BuildContext context) {
